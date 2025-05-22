@@ -1,0 +1,18 @@
+name: ar_museum_guide
+description: AR Museum Guide mobile application
+version: 1.0.0
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^4.8.0
+  flutter_unity_widget: ^2022.2.0
+  firebase_core: ^2.4.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  assets:
+    - assets/images/
+    - assets/vuforia_database.xml
